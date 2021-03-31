@@ -12,7 +12,7 @@ function EmployeeTable(props) {
                     
                     <th scope="col">Email </th>
                     <th scope="col">Phone </th>
-                    <th scope="col"></th>
+                    <th scope="col">Gender</th>
                 </tr>
             </thead>
             <tbody className="emp-view">
@@ -25,7 +25,7 @@ function EmployeeTable(props) {
             <td>{user.name.first} </td>
             <td>{user.phone}</td>
             <td>{user.email}</td>
-            <td>{user.dob.date}</td>
+            <td>{user.gender}</td>
            
           </tr>
         ))}
